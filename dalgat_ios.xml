@@ -6347,6 +6347,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="PushPermissions" description="единый стек параметров для push">
 <type>list</type>
+<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <nodes>
 <node id="greenfield0.online.sberbank.ru">
 <enableDeletePushMessage>true</enableDeletePushMessage>
@@ -6505,6 +6506,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
 </node>
 <node id="mobile.sberbank.ru">
+<pushGlobalSearchByKeywords>true</pushGlobalSearchByKeywords>
 <enableDeletePushMessage>true</enableDeletePushMessage>
 <TransferOrTurnOn>false</TransferOrTurnOn>
 <TransferMethod>manual</TransferMethod>
