@@ -6557,7 +6557,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <TransferOrTurnOn2>true</TransferOrTurnOn2>
 <TransferMethod>manual</TransferMethod>
 <TransferMethodAA>manual</TransferMethodAA>
-<TurnOnMethodNC>auto</TurnOnMethodNC>
+<TurnOnMethodNC>manual</TurnOnMethodNC>
 <TransferMethodHA>manual</TransferMethodHA>
 <TransferMethodTC>true</TransferMethodTC>
 <showNewAttributesInPushContent>true</showNewAttributesInPushContent>
