@@ -6308,9 +6308,59 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <type>setting</type>
 <enabled>true</enabled>
 </param>
-<param name="VoiceAssistantPermissions" description="Голосовой помощник">
+<param name="VoiceControl" description="Голосовое управление в мобильном приложении">
 <type>list</type>
 <enabled>true</enabled>
+<nodes>
+<node id="node0.online.sberbank.ru">
+<search>true</search>
+<search10.0>true</search10.0>
+</node>
+<node id="node1.online.sberbank.ru">
+<search>true</search>
+<search10.0>true</search10.0>
+</node>
+<node id="node2.online.sberbank.ru">
+<search>true</search>
+<search10.0>true</search10.0>
+</node>
+<node id="node3.online.sberbank.ru">
+<search>true</search>
+<search10.0>true</search10.0>
+</node>
+<node id="greenfield1.online.sberbank.ru">
+<search>true</search>
+<search10.0>true</search10.0>
+</node>
+<node id="mobile.sberbank.ru">
+<search>false</search>
+<search10.0>true</search10.0>
+</node>
+<node id="ift-node1.testonline.sberbank.ru">
+<search>true</search>
+<search10.0>true</search10.0>
+</node>
+<node id="ift-node2.testonline.sberbank.ru">
+<search>true</search>
+<search10.0>true</search10.0>
+</node>
+<node id="greenfield2.online.sberbank.ru">
+<search>true</search>
+<search10.0>true</search10.0>
+</node>
+<node id="ift-node1-mp.testonline.sberbank.ru">
+<search>true</search>
+<search10.0>true</search10.0>
+</node>
+<node id="ift-node2-mp.testonline.sberbank.ru">
+<search>true</search>
+<search10.0>true</search10.0>
+</node>
+</nodes>
+</param>
+<param name="VoiceAssistantPermissions" description="Голосовой помощник">
+<type>list</type>
+<enabled>false</enabled>
 <CountRepeat>3</CountRepeat>
 <nodes>
 <node id="greenfield1.online.sberbank.ru">
