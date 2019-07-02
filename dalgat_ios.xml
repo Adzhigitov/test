@@ -6334,7 +6334,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </node>
 <node id="mobile.sberbank.ru">
 <search>true</search>
-<search10.0>false</search10.0>
+<search10.0>true</search10.0>
 </node>
 <node id="ift-node1.testonline.sberbank.ru">
 <search>true</search>
