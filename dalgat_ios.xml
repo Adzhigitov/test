@@ -6310,7 +6310,7 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 </param>
 <param name="VoiceControl" description="Голосовое управление в мобильном приложении">
 <type>list</type>
-<enabled>true</enabled>
+<enabled>false</enabled>
 <nodes>
 <node id="node0.online.sberbank.ru">
 <search>true</search>
