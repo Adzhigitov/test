@@ -2133,6 +2133,10 @@ The entered ID is already in use in the system. Enter a different value
 <node id="ift-node1.testonline.sberbank.ru">
 <efsMobileBank>true</efsMobileBank>
 </node>
+<node id="ift-node7-mp.testonline.sberbank.ru">
+<pushAlertEnabled>true</pushAlertEnabled>
+<efsMobileBank>true</efsMobileBank>
+</node>
 <node id="ift-node5-mp.testonline.sberbank.ru">
 <pushAlertEnabled>true</pushAlertEnabled>
 <efsMobileBank>true</efsMobileBank>
@@ -6479,6 +6483,37 @@ consumer-loan/v1/mobile/banking/products/loans/requests/list
 <forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
 <pushLogoTypeUsing>true</pushLogoTypeUsing>
 </node>
+<node id="ift-node7-mp.testonline.sberbank.ru">
+<enableDeletePushMessage>true</enableDeletePushMessage>
+<TransferOrTurnOn2>true</TransferOrTurnOn2>
+<TransferMethod>manual</TransferMethod>
+<TransferMethodAA>manual</TransferMethodAA>
+<TurnOnMethodNC>manual</TurnOnMethodNC>
+<TransferMethodHA>manual</TransferMethodHA>
+<TransferMethodTC>true</TransferMethodTC>
+<nativePushProcessingEnabled>true</nativePushProcessingEnabled>
+<transferTPUSettingsOnNewRegistration>false</transferTPUSettingsOnNewRegistration>
+<newPushProccessing>true</newPushProccessing>
+<webUrlInUniversalPushNotification>true</webUrlInUniversalPushNotification>
+<routingFromTransactionPushToMessengerEnabled>true</routingFromTransactionPushToMessengerEnabled>
+<cardNotificationWithSenderNameAndComment>true</cardNotificationWithSenderNameAndComment>
+<showUniversalPushNotification>true</showUniversalPushNotification>
+<buttonToPostLogin>true</buttonToPostLogin>
+<pushHistoryAvailableInTabbarBank>true</pushHistoryAvailableInTabbarBank>
+<MFMSMessageRequestType>1</MFMSMessageRequestType>
+<NotificationSettingsOwn>true</NotificationSettingsOwn>
+<autoTurnOffOperationPush>true</autoTurnOffOperationPush>
+<TurnOffOperationPush>true</TurnOffOperationPush>
+<MessagesWithExpired>true</MessagesWithExpired>
+<showBestActionsInCuteCheque>true</showBestActionsInCuteCheque>
+<showNotificationEntryPointTargetTapPrelogin>true</showNotificationEntryPointTargetTapPrelogin>
+<showNotificationEntryPointTargetTapPostlogin>true</showNotificationEntryPointTargetTapPostlogin>
+<newRejectAuthorizeAlert>true</newRejectAuthorizeAlert>
+<getMessageHistoryRequestEnabled>true</getMessageHistoryRequestEnabled>
+<forcedHistoryQuery>true</forcedHistoryQuery>
+<forcedHistoryQueryIfNoHistory>true</forcedHistoryQueryIfNoHistory>
+<pushLogoTypeUsing>true</pushLogoTypeUsing>
+</node>
 <node id="node1.online.sberbank.ru">
 <transferTPUSettingsOnNewRegistration>true</transferTPUSettingsOnNewRegistration>
 <buttonToPostLogin>true</buttonToPostLogin>
@@ -7030,6 +7065,16 @@ https://stat.online.sberbank.ru/PhizIC-res/IMG/PU/20/63/61/2b26d928c6b985710071f
 <CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
 <mobileBankChangePhone>true</mobileBankChangePhone>
 <FullTariffTurnOffEnabled>true</FullTariffTurnOffEnabled>
+<ShowNotificationTerm>true</ShowNotificationTerm>
+<mobileBankActivateFlow_2>true</mobileBankActivateFlow_2>
+</node>
+  <node id="ift-node7-mp.testonline.sberbank.ru">
+<mobileBankDeactivateFlow_2>true</mobileBankDeactivateFlow_2>
+<mobileBankFromSetting>true</mobileBankFromSetting>
+<mobileBankFromCardSetting>true</mobileBankFromCardSetting>
+<CardPhoneListCacheEnabled>true</CardPhoneListCacheEnabled>
+<mobileBankChangePhone>true</mobileBankChangePhone>
+<FullTariffTurnOffEnabled>false</FullTariffTurnOffEnabled>
 <ShowNotificationTerm>true</ShowNotificationTerm>
 <mobileBankActivateFlow_2>true</mobileBankActivateFlow_2>
 </node>
